@@ -1,19 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>autoVista</title>
-    <link rel="stylesheet" href="/style.css">
-    <script type="text/javascript" src="app.js">
 
-    </script>
-    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+<head>
+  <meta charset="utf-8">
+  <title>autoVista</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script defer type="text/javascript" src="app.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+</head>
+
+<body>
+
+  <div id="slideHome" class="container my-container col-md-12">
+    <div class="row my-row">
+      <div class="col my-col">
+        Auto Recognition
+      </div>
+      <div class="col my-col">
+      </div>
+    </div>
+    <div class="row my-row">
+      <div class="col my-col">
+
+      </div>
+      <div class="col my-col">
+
+      </div>
+
+    </div>
+    <div class="col-md-8" style="text-align:center;">
+      <span class="title-text">Auto Vision</span>
+
+    </div>
+  </div>
+  <div id="slideHome2" class="container my-container col-md-12">
+    <div class="row my-row">
+      <div class="col my-col">
+      </div>
+      <div class="col my-col">
+        from JWFCreative co.ltd
+      </div>
+    </div>
+    <div class="row my-row">
+      <div class="col my-col">
+
+      </div>
+      <div class="col my-col">
+
+      </div>
+
+    </div>
 
 
-    </script>
-  </head>
-  <body>
+    <div id="myNav" class="overlay">
+  <a id="hi"href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div id="content"class=" col-md-12 overlay-content">
+    <div class="tab-bar">
+      <div class="row align-content-center justify-content-center">
 
+        <div id="image-preview " style="height:467px; width:703px;"class=" align-content-center">
+          <img id="carID" src="" alt="">
+          <div class="parent">
 
-  </body>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </div>
+    <div class="container-fluid navbar footer fixed-bottom footer-light footer-shadow content">
+      <div class="col-md-10">
+        <form class="" action="index.html" method="post">
+          <input class="carUrl" type="text" id="img-url" placeholder="Enter image url." size="35">
+          <button id="addPost" onclick="openNav()"> Search<i class="fa fa-check"></i>
+      </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+</body>
+
 </html>
