@@ -1,13 +1,13 @@
 #slideHome{
   position: absolute;
   margin-top: 130px;
-  margin-left: 185px;
+  margin-left: 335px;
   color: white;
 }
 #slideHome2{
   position: absolute;
   margin-top: 240px;
-  margin-left: 235px;
+  margin-left: 305px;
   color: white;
 
 }
@@ -27,7 +27,6 @@ html{
   font-style: italic;
 }
 #img-url{
-  margin-left: 450px;
 }
 
 .nav-item{
@@ -48,7 +47,7 @@ html{
   font-family: "Lucida console";
   font-size: 60px;
   text-align: center;
-  margin-left: 30px;
+  margin-left: 70px;
 }
 .my-row{
   font-family: "Lucida console";
