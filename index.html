@@ -13,22 +13,24 @@
 
 <body>
 
+
+</div>
   <div id="slideHome" class="container my-container col-sm-12col-lg-12col-md-12">
-    <div class="row my-row">
-      <div class="col my-col">
-        Auto Recognition
+    <div class="container-fluid eye">
+      <img id="eye"src="images/eye.png" alt="">
+    </div>
+    <div class="move row my-row">
+      <div class="move col my-col">
+        Vehicle Recognition
       </div>
       <div class="col my-col">
       </div>
     </div>
     <div class="row my-row">
       <div class="col my-col">
-
       </div>
       <div class="col my-col">
-
       </div>
-
     </div>
     <div class="col-md-8 col-sm-12" style="text-align:center;">
       <span class="title-text">Auto Vision</span>
@@ -40,44 +42,38 @@
       <div class="col my-col">
       </div>
       <div class="col my-col">
-        from JWFCreative co.ltd
+      	&copy; 2018 JWFCreative co.ltd
       </div>
     </div>
     <div class="row my-row">
       <div class="col my-col">
-
       </div>
       <div class="col my-col">
-
       </div>
-
     </div>
 
 
     <div id="myNav" class="overlay">
-  <a id="hi"href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <div class="row  h-100 align-content-center justify-content-center">
-        <div class="logo-container">
-
-        </div>
-        <div id="parent"class="col-md-7">
-        </div>
-        <div id="image-preview"class=" col-md-7 align-content-center">
-          <img id="carID" src="" alt="">
+      <a id="hi" href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="row  h-100  justify-content-center ">
+          <div id="logodiv" class="col-md-8 align-content-center justify-content-center">
+            </div>
+          <div id="parent" class="col-md-8 align-content-center justify-content-center">
+            </div>
+          <div id="image-preview" class=" col-md-7 align-content-center">
+            <img id="carID" src="" alt="">
+          </div>
         </div>
       </div>
-    </div>
 
-    </div>
-    <div class="container-fluid navbar footer fixed-bottom footer-light footer-shadow content align-content-center justify-content-center">
-
-        <form class="align-content-center justify-content-center" action="index.html" method="post">
-          <input class="carUrl" type="text" id="img-url" placeholder="Enter image url." size="35">
-          <button id="addPost"> Search<i class="fa fa-check"></i>
+  </div>
+  <div class="container-fluid navbar footer fixed-bottom footer-light footer-shadow fixed-bottom content align-content-center justify-content-center">
+    <form class=" formy align-content-center justify-content-center" id="submit-form" action="#" method="get">
+      <input class="carUrl textbox" type="text" id="img-url" placeholder="Enter image url." size="35">
+      <button type="submit" class="btn btn-warning btn-lg"id="addPost"> Search
       </button>
-        </form>
-
-    </div>
+    </form>
+  </div>
   </div>
 
 </body>
