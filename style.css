@@ -10,7 +10,7 @@
 #slideHome{
   position: absolute;
   margin-top: 130px;
-  margin-left: 400px;
+  margin-left: 330px;
   color: white;
 }
 #slideHome2{
@@ -121,8 +121,8 @@ html{
 
 }
 #carID{
-  height: 95%;
-  width: 95%;
+  height: 100%;
+  width: 100%;
   display:block;
   margin:auto;
   border-radius: 30px;
