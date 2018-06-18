@@ -1,0 +1,24 @@
+{
+  "name": "Q1-PROJECT",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "json-server": "^0.12.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neverblink89/Q1-Project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Neverblink89/Q1-Project/issues"
+  },
+  "homepage": "https://github.com/Neverblink89/Q1-Project#readme"
+}

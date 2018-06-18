@@ -16,7 +16,6 @@ function addPost(e){
   .then((res)=> res.json())
   .then((data)=> {
     (console.log(data))
-    document.getElementById('#')
     let carUrl = document.getElementById('carUrl')
     let cars = data.objects
     console.log(cars);

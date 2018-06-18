@@ -2,38 +2,65 @@
   z-index: 1;
 }
 
-#eye{
-  position: absolute;
-  z-index: 1;
-  margin-left: 145px;
-}
-#slideHome{
-  position: absolute;
-  margin-top: 130px;
-  margin-left: 330px;
-  color: white;
-}
-#slideHome2{
-  position: absolute;
-  margin-top: 240px;
-  margin-left: 305px;
-  color: white;
 
-}
 
 .footer{
   height:100px;
 }
 
 
-html{
+.bg-cover{
   background: url("images/MB-blue.jpg");
-  height:100%;
+  height:100vh;
+  position:relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  font-style: italic;
+
 }
+
+.title-container {
+  height: 150px;
+  padding-top: 3em;
+}
+
+.top-title-container {
+  color: white;
+  letter-spacing: 25px;
+  font-style: italic;
+  font-family: "Lucida console";
+
+}
+.top {
+  line-height: 100px;
+  height: 50px;
+  width: 50%;
+  text-align: right;
+
+}
+
+.middle {
+  height: 100px;
+}
+.eye {
+  height: 100%;
+  margin-left: auto;
+	margin-right: auto;
+	display: block;
+}
+
+.bottom {
+  text-align: left;
+  height: 50px;
+  width: 50%;
+  float:right;
+
+}
+.bottom h1 {
+  margin-left: 20px;
+}
+
+
 #img-url{
 }
 
@@ -169,6 +196,7 @@ overflow: hidden;
   background-color: black;
   color: white;
   border: 1px solid grey;
+
 
 }
 form{
